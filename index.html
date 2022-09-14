@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "principal">
+        <header>
+            <img id = "leaf" src="images/leaf.png" alt = "leaf">
+            <h1>EasyBay</h1>
+            <form>
+                <input id = "seach" placeholder = "Search for anything" class="search" type ="text" name ="search">
+                <button>
+                    <img class = "small" src="images/search-dark.png" alt="search">
+                </button>
+                
+            </form>
+                <a href = "#" >Sign In</a>
+            <button onclick="alertCar()">
+                <img class = "small" src= "images/cart-dark.png" alt = "car">
+            </button>
+        </header>
+        <div class = "menu">
+            <a href = "#">
+                <ul>
+                    <li>Aeonium</li>
+                    <li>Andormischus</li>
+                    <li>Agove</li>
+                    <li>Aloe</li>
+                    <li>Anacampseros</li>
+                    <li>Aristaloe</li>
+                    <li>More...</li>
+                </ul>
+            </a>
+        </div>
+        <div class = "tittle">
+            <h2>Your Source for Serius Succulent Specialties</h2>
+        </div>
+        <main>
+            <nav>
+                <div class = "nav1">
+                    <p>Discover succulent barieties one pat or rack at a time!</p>
+                    <h3 id = "dis">Discover</h3>
+                </div>
+                <div class = "nav2">
+                    <img class = "img" id = "img" src="images/succulents-1.jpg" alt = "Aeonium" onmouseover="changeImg()" onmouseleave="changeImg()">
+                </div>
+            </nav>
+            <div class = "right">
+                <div class = "sup">
+                    <img class = "img2" src="images/aloe-m.jpg" alt = "aloe">
+                </div>
+                <div class = "shoot">
+                    <h3>Soothing Aloe</h3>
+                </div>
+            </div>
+        </main>
+        <div class = "images">
+            <div>
+                <img class = "smallImg" src="images/aeonium-s.jpg" alt ="aeonium">
+                <h4>Aenium</h4>
+            </div>
+            <div>
+                <img class = "smallImg" src="images/aloe-s.jpg" alt ="aloe">
+                <h4>Aloe</h4>
+            </div>
+            <div>
+                <img class = "smallImg" src="images/cactus-s.jpg" alt ="cactus">
+                <h4>Cactus</h4>
+            </div>
+            <div>
+                <img class = "smallImg" src="images/echeveria-s.jpg" alt ="echeveria">
+                <h4>Echeveria</h4>
+            </div>
+            <div>
+                <img class = "smallImg" src="images/sedum-s.jpg" alt ="sedum">
+                <h4>Sedium</h4>
+            </div>
+            <div>
+                <img class = "smallImg" src="images/sempervivum-s.jpg" alt ="supervivum">
+                <h4>Serpervivum</h4>
+            </div>
+        </div>
+        <footer>
+            <img src="images/alert-dark.png" alt="alert">
+            <p class = "blackP"> This site makes use of third-party cookies, 
+                by clicking "I accept" you agree to the terms outlined in our <a class = "cook" href = "#"> cookie policy</a>
+            </p>
+            <button class = "accept" onclick ="iAccept()">I Accept</button>
+        </footer> 
+    </div>
+    <script src = "js/script.js"></script>
+</body>
+</html>
